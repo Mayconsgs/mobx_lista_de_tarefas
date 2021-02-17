@@ -15,11 +15,18 @@ Instalados? Então bora lá.
 
 ```sh
 git clone https://github.com/Mayconsgs/mobx_lista_de_tarefas.git
+
 cd mobx_lista_de_tarefas
+
 flutter pub get
+
 flutter pub upgrade
+
 flutter pub run build_runner build
+
 flutter run lib/main.dart
 ```
+
+> Esse último comando é oque executa o app.
 
 E está pronto, se tudo der certo, o app estará rodando lindamente.
