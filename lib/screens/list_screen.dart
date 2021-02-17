@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:mobx/mobx.dart';
 import 'package:mobxlistadetarefas/screens/login_screen.dart';
 import 'package:mobxlistadetarefas/stores/list_store.dart';
 import 'package:mobxlistadetarefas/stores/login_store.dart';
@@ -77,10 +76,10 @@ class ListScreen extends StatelessWidget {
                         title: Text(
                           todo.title,
                           style: TextStyle(
-                            decoration: todo.done ? TextDecoration.lineThrough : null,
-                            color: todo.done ? Colors.grey : Colors.black,
-                            fontWeight: todo.done ? null : FontWeight.bold
-                          ),
+                              decoration:
+                                  todo.done ? TextDecoration.lineThrough : null,
+                              color: todo.done ? Colors.grey : Colors.black,
+                              fontWeight: todo.done ? null : FontWeight.bold),
                         ),
                         onTap: todo.toggleDone,
                       );

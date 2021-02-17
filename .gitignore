@@ -1,3 +1,6 @@
+# Generated classes
+lib/stores/*.g.dart
+
 # Miscellaneous
 *.class
 *.log

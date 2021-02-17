@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:mobxlistadetarefas/screens/list_screen.dart';
 import 'package:mobxlistadetarefas/screens/login_screen.dart';
 import 'package:mobxlistadetarefas/stores/login_store.dart';
 import 'package:provider/provider.dart';
