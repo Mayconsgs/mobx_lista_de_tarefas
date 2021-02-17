@@ -27,6 +27,8 @@ flutter pub run build_runner build
 flutter run lib/main.dart
 ```
 
-> Esse último comando é oque executa o app.
+> Ao executar em lote, pode ser que o último comando não execute automáticamente.
 
 E está pronto, se tudo der certo, o app estará rodando lindamente.
+
+!["App"](./images/Screenshot_1613571542.png)
