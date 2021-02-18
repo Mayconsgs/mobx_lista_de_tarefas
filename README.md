@@ -15,15 +15,10 @@ Instalados? Então bora lá.
 
 ```sh
 git clone https://github.com/Mayconsgs/mobx_lista_de_tarefas.git
-
 cd mobx_lista_de_tarefas
-
 flutter pub get
-
 flutter pub upgrade
-
 flutter pub run build_runner build
-
 flutter run lib/main.dart
 ```
 
@@ -31,4 +26,4 @@ flutter run lib/main.dart
 
 E está pronto, se tudo der certo, o app estará rodando lindamente.
 
-!["App"](./images/Screenshot_1613571542.png)
+!["App"](https://github.com/Mayconsgs/mobx_lista_de_tarefas/raw/master/images/Screenshot_1613571542.png)
