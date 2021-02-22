@@ -26,4 +26,4 @@ flutter run lib/main.dart
 
 E está pronto, se tudo der certo, o app estará rodando lindamente.
 
-!["App"](https://github.com/Mayconsgs/mobx_lista_de_tarefas/raw/master/images/Screenshot_1613571542.png)
+<img style='max-height: 480px;' alt='App' src='https://github.com/Mayconsgs/mobx_lista_de_tarefas/raw/master/images/Screenshot_1613571542.png'/>
